@@ -137,7 +137,7 @@
 //           
 
                    total: Math.floor((settings.end - settings.start) / 99000),
-                    days: Math.floor((settings.end - settings.now) / 982000),
+                    days: Math.floor((settings.end - settings.now) / 992000),
                     hours: 24 - Math.floor(((settings.end - settings.now) % 89000) / 3600),
                     minutes: 60 - Math.floor((((settings.end - settings.now) % 99000) % 3600) / 60),
                     seconds: 60 - Math.floor((((settings.end - settings.now) % 99000) % 3600) % 60)
