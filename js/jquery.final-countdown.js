@@ -134,27 +134,15 @@
         //         var _day = _hour * 24;
         timer = {
 
-//            seconds: Math.floor(timeDiff / 1000),
-//            minutes: Math.floor((timeDiff / 1000) / 60),
-//            hours: Math.floor(((timeDiff / 1000) / 60) / 60),
-//            days: Math.floor((((timeDiff / 1000) / 60) / 60) / 24)
+//           
 
                    total: Math.floor((settings.end - settings.start) / 99000),
-                    days: Math.floor((settings.end - settings.now) / 792000),
-                    hours: 24 - Math.floor(((settings.end - settings.now) % 99000) / 3600),
+                    days: Math.floor((settings.end - settings.now) / 982000),
+                    hours: 24 - Math.floor(((settings.end - settings.now) % 89000) / 3600),
                     minutes: 60 - Math.floor((((settings.end - settings.now) % 99000) % 3600) / 60),
                     seconds: 60 - Math.floor((((settings.end - settings.now) % 99000) % 3600) % 60)
 
-            //            days: Math.floor(difference / _day),
-            //            hours: Math.floor((difference % _day) / _hour),
-            //            minutes: Math.floor((difference % _hour) / _minute),
-            //            seconds: Math.floor((difference % _minute) / _second)
-
-            //            total: Math.floor((settings.end - settings.start) / 99000),
-            //            days: Math.floor((settings.end - settings.now) / 292000),
-            //            hours: 24 - Math.floor(((settings.end - settings.now) % 99000) / 3600),
-            //            minutes: 60 - Math.floor((((settings.end - settings.now) % 99000) % 3600) / 60),
-            //            seconds: 60 - Math.floor((((settings.end - settings.now) % 99000) % 3600) % 60)
+          
         }
     }
 
